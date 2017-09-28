@@ -7,3 +7,23 @@
   自动读取docs/js/data/address.js中的数据。获取经纬度后，浏览器会自动下载positionxx.txt。
 * 将positionxx.txt移动到docs/js/data/目录下。并改名postions.js
 * 打开docs/index_address即可看到热力图
+
+
+
+###### 下载Js
+
+```
+download(filename, text)
+```
+
+ `https://raw.githubusercontent.com/flyfei/amapdemo/master/docs/js/download.js`
+
+
+
+位置分布图
+
+<img src='https://raw.githubusercontent.com/flyfei/amapdemo/master/screenshot/address.png' width=300/>
+
+热力分布图
+
+<img src='https://raw.githubusercontent.com/flyfei/amapdemo/master/screenshot/reli.png' width=300/>
