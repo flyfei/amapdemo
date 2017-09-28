@@ -22,8 +22,8 @@ download(filename, text)
 
 位置分布图
 
-<img src='https://raw.githubusercontent.com/flyfei/amapdemo/master/screenshot/address.png' width=300/>
+<img src='https://raw.githubusercontent.com/flyfei/amapdemo/master/screenshot/address.png' width=500/>
 
 热力分布图
 
-<img src='https://raw.githubusercontent.com/flyfei/amapdemo/master/screenshot/reli.png' width=300/>
+<img src='https://raw.githubusercontent.com/flyfei/amapdemo/master/screenshot/reli.png' width=500/>
