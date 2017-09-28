@@ -1,0 +1,23 @@
+body,html,#container{
+    height: 100%;
+    margin: 0px;
+    font-size: 12px;
+}
+.panel {
+    color: #333;
+    padding: 6px;
+    border: 1px solid silver;
+    box-shadow: 3px 4px 3px 0px silver;
+    position: absolute;
+    background-color: #eee;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    line-height: 20px;
+}
+.tool {
+    position: fixed;
+    top: 0;
+    right: 0;
+}

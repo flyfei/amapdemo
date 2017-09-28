@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<title>获取经纬度</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+
+</head>
+
+<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=a1b0c3752f150cf01badec173939b8f7"></script>
+<script type="text/javascript" src="./js/data/address.js"></script>
+<script type="text/javascript" src="./js/download.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/amap.css">
+<script type="text/javascript">
+
+    window.addEventListener('load', function () {
+        load()
+    })
+</script>
+
+<body>
+
+<div id="container" tabindex="0"></div>
+<div class="tool" id="tool">
+    <button onclick="downloadPostions()">下载postions</button>
+</div>
+</body>
+<script type="text/javascript" src="./js/location/amap.js"></script>
+</html>
